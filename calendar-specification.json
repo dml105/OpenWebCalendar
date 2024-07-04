@@ -1,5 +1,10 @@
 {
-    "css": "@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');\n\n@font-face {font-family: \"Roboto\";}\n\n.dhx_cal_event_line_start {border-top-left-radius: 8px; border-bottom-left-radius: 8px;}\n.dhx_cal_event_line_end {border-top-right-radius: 8px; border-bottom-right-radius: 8px;}\n.dhx_cal_event_line.CALENDAR-INDEX-0 { background-color: #0000ffff; }\n.dhx_cal_event_line.CALENDAR-INDEX-1 { background-color: #880088ff; }\n.dhx_cal_event_line.CALENDAR-INDEX-2 { background-color: #cc0000ff; }\n.dhx_cal_event_line.CALENDAR-INDEX-3 { background-color: #00cc00ff; }\n\n.dhx_cal_event_clear.CALENDAR-INDEX-0 { color:#0000ff; }\n.dhx_cal_event_clear.CALENDAR-INDEX-1 { color:#880088; }\n.dhx_cal_event_clear.CALENDAR-INDEX-2 { color:#cc0000; }\n.dhx_cal_event_clear.CALENDAR-INDEX-3 { color:#00cc00; }\n\n.dhx_cal_container { background-color: rgba(255,255,255,.3);backdrop-filter: blur(4px);}\n.dhx_cal_header { background-color: rgba(255,255,255,.3);}\n.dhx_scale_bar, dhx_cal_data, .dhx_month_body,.dhx_month_head,.dhx_month_body, .dhx_month_body { background-color: rgba(255,255,255,.1);}\n\n.dhx_before, .dhx_before .dhx_month_head, .dhx_before .dhx_month_body { background-color:#88888810; }\n.dhx_after,  .dhx_after  .dhx_month_head, .dhx_after  .dhx_month_body { background-color:#88888810; }\n\n.dhx_cal_quick_info {display: none;}\n\n.scheduler_tooltip[\"calendarlabs\"] {display: none;}\n",
+    "css": "
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');\n\n
+        @font-face {font-family: \"Roboto\";}\n\n
+        .dhx_cal_event_line_start {border-top-left-radius: 8px; border-bottom-left-radius: 8px;}\n
+        .dhx_cal_event_line_end {border-top-right-radius: 8px; border-bottom-right-radius: 8px;}\n
+        .dhx_cal_event_line.CALENDAR-INDEX-0 { background-color: #0000ffff; }\n.dhx_cal_event_line.CALENDAR-INDEX-1 { background-color: #880088ff; }\n.dhx_cal_event_line.CALENDAR-INDEX-2 { background-color: #cc0000ff; }\n.dhx_cal_event_line.CALENDAR-INDEX-3 { background-color: #00cc00ff; }\n\n.dhx_cal_event_clear.CALENDAR-INDEX-0 { color:#0000ff; }\n.dhx_cal_event_clear.CALENDAR-INDEX-1 { color:#880088; }\n.dhx_cal_event_clear.CALENDAR-INDEX-2 { color:#cc0000; }\n.dhx_cal_event_clear.CALENDAR-INDEX-3 { color:#00cc00; }\n\n.dhx_cal_container { background-color: rgba(255,255,255,.3);backdrop-filter: blur(4px);}\n.dhx_cal_header { background-color: rgba(255,255,255,.3);}\n.dhx_scale_bar, dhx_cal_data, .dhx_month_body,.dhx_month_head,.dhx_month_body, .dhx_month_body { background-color: rgba(255,255,255,.1);}\n\n.dhx_before, .dhx_before .dhx_month_head, .dhx_before .dhx_month_body { background-color:#88888810; }\n.dhx_after,  .dhx_after  .dhx_month_head, .dhx_after  .dhx_month_body { background-color:#88888810; }\n\n.dhx_cal_quick_info {display: none;}\n\n.scheduler_tooltip[\"calendarlabs\"] {display: none;}\n",
     "ending_hour": "20",
     "hour_format": "%g:%i %a",
     "loader": "",
@@ -12,7 +17,7 @@
     ],
     "url": [
         "https://ics.calendarlabs.com/76/b0585514/US_Holidays.ics",
-        " https://p133-caldav.icloud.com/published/2/OTQwOTU1NTQ5NDA5NTU1NFAoDm2cXkxR9AFt_hs1iCJsxYQe1H0uKvBrT2Lp0tcq",
+        "https://p133-caldav.icloud.com/published/2/OTQwOTU1NTQ5NDA5NTU1NFAoDm2cXkxR9AFt_hs1iCJsxYQe1H0uKvBrT2Lp0tcq",
         "https://p133-caldav.icloud.com/published/2/OTQwOTU1NTQ5NDA5NTU1NFAoDm2cXkxR9AFt_hs1iCIBi-HxmcV7Khi3vXA9T-S-Bz7pZlT_G1iu7-EaoXlotIRURT75yOYE-ZtSI1LnMfs",
         "https://calendar.google.com/calendar/ical/q6gugk78jiahllj87gknq7dv5g@group.calendar.google.com/public/basic.ics"
     ]
