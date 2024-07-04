@@ -21,8 +21,9 @@
         .dhx_after,  .dhx_after  .dhx_month_head, .dhx_after  .dhx_month_body { background-color:#88888810; }\n\n
         .dhx_cal_quick_info {display: none;}\n\n
         .scheduler_tooltip[\"calendarlabs\"] {display: none;}\n",
-    "ending_hour": "20",
-    "hour_format": "%g:%i %a",
+    "ending_hour": "24",
+    "hour_format": "%g:%i%a",
+    "clean_html_remove_tags": "- body\n- head\n- html\n",
     "loader": "",
     "start_of_week": "su",
     "starting_hour": "7",
