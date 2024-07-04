@@ -23,7 +23,6 @@
         .scheduler_tooltip[\"calendarlabs\"] {display: none;}\n",
     "ending_hour": "24",
     "hour_format": "%g:%i%a",
-    "clean_html_remove_tags": "- body\n- head\n- html\n",
     "loader": "",
     "start_of_week": "su",
     "starting_hour": "7",
