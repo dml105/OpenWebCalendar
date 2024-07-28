@@ -20,6 +20,7 @@
         .dhx_scale_bar, dhx_cal_data, .dhx_month_body,.dhx_month_head,.dhx_month_body, .dhx_month_body { background-color: rgba(255,255,255,.1);}\n\n
         .dhx_before, .dhx_before .dhx_month_head, .dhx_before .dhx_month_body { background-color:#88888810; }\n
         .dhx_after,  .dhx_after  .dhx_month_head, .dhx_after  .dhx_month_body { background-color:#88888810; }\n\n
+        .dhx_cal_month_cell {background-color: transparent;}\n
         .dhx_cal_quick_info {display: none;}\n\n
         .scheduler_tooltip[\"calendarlabs\"] {display: none;}
         \n",
