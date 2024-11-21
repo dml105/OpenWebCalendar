@@ -4,7 +4,7 @@
     "css": "
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');\n\n
         @font-face {font-family: \"Roboto\";}\n\n
-        .--dhx-scheduler-caption-font-size: 9px;\n
+        .font-size: 9px;\n
         .dhx_cal_event_line_start {border-top-left-radius: 8px; border-bottom-left-radius: 8px;}\n
         .dhx_cal_event_line_end {border-top-right-radius: 8px; border-bottom-right-radius: 8px;}\n
         .dhx_cal_event.CALENDAR-INDEX-0 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-0 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-0 { background-color: #0000ff33; color: #000000; border-left-color: #0000ff; border-left-width: 3px; }\n
