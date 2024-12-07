@@ -12,18 +12,21 @@
         .dhx_cal_event.CALENDAR-INDEX-0 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-0 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-0 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #0000ff33; color: #000000; border-left-color: #0000ff; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n
         .dhx_cal_event.CALENDAR-INDEX-1 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-1 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-1 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #47006833; color: #000000; border-left-color: #470068; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n
         .dhx_cal_event.CALENDAR-INDEX-2 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-2 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-2 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #cc000033; color: #000000; border-left-color: #cc0000; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n
-        .dhx_cal_event.CALENDAR-INDEX-3 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-3 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-3 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #00cc0033; color: #000000; border-left-color: #00cc00; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n\n
+        .dhx_cal_event.CALENDAR-INDEX-3 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-3 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-3 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #00cc0033; color: #000000; border-left-color: #00cc00; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n
+        .dhx_cal_event.CALENDAR-INDEX-3 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-4 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-4 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #cc00cc33; color: #000000; border-left-color: #cc00cc; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n
 
         .dhx_cal_event_clear.CALENDAR-INDEX-0 { color:#0000ff; font-family: Roboto; font-size: 10px;}\n
         .dhx_cal_event_clear.CALENDAR-INDEX-1 { color:#470068; font-family: Roboto; font-size: 10px;}\n
         .dhx_cal_event_clear.CALENDAR-INDEX-2 { color:#cc0000; font-family: Roboto; font-size: 10px;}\n
         .dhx_cal_event_clear.CALENDAR-INDEX-3 { color:#00cc00; font-family: Roboto; font-size: 10px;}\n
+        .dhx_cal_event_clear.CALENDAR-INDEX-4 { color:#cc00cc; font-family: Roboto; font-size: 10px;}\n
 
 
         .dhx_cal_event_clear.CALENDAR-INDEX-0::before { background:#0000ff; }\n
         .dhx_cal_event_clear.CALENDAR-INDEX-1::before { background:#470068; }\n
         .dhx_cal_event_clear.CALENDAR-INDEX-2::before { background:#cc0000; }\n
         .dhx_cal_event_clear.CALENDAR-INDEX-3::before { background:#00cc00; }\n
+        .dhx_cal_event_clear.CALENDAR-INDEX-4::before { background:#cc00cc; }\n
 
         .dhx_cal_container { background-color: rgba(255,255,255,.3);backdrop-filter: blur(4px);}\n
         .dhx_cal_header { background-color: rgba(255,255,255,.3);}\n
