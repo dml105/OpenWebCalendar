@@ -2,7 +2,8 @@
     "skin": "contrast-white",
     //"version": "1.30",
     "css_url": [
-        "https://raw.githubusercontent.com/dml105/OpenWebCalendar/refs/heads/main/fullcalendar.css"
+        "https://raw.githubusercontent.com/dml105/OpenWebCalendar/refs/heads/main/fullcalendar.css",
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     ],
     
     "ending_hour": "24",
