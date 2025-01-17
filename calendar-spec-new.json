@@ -1,8 +1,11 @@
 {
     "skin": "contrast-white",
     //"version": "1.30",
-    "css": "\n
-        html {\n
+    "css": "
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');\n\n
+        @font-face {font-family: \"Roboto\";}\n\n
+
+html {\n
             --dhx-scheduler-base-colors-border: #e3e7e8 !important;\n
             --OFFdhx-scheduler-default-border: 1px solid #cccccc;\n
         }\n
@@ -50,39 +53,35 @@
         */
         
         .dhx_cal_date { font-family: var(--headerFont)};\n
-        
+
         .dhx_cal_event { background-color: #ffffff00;}\n
-        .dhx_cal_event_line_start {border-top-left-radius: var(--cornerRadius); border-bottom-left-radius: var(--cornerRadius);}\n
-        .dhx_cal_event_line_end {border-top-right-var(--cornerRadius); border-bottom-right-var(--cornerRadius);}\n
-        .dhx_cal_event.CALENDAR-INDEX-0 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-0 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-0 { border-top-left-radius: var(--cornerRadius); border-bottom-left-radius: var(--cornerRadius); background-color: var(--holidayColorT); color: #000000; border-left-color: var(--holidayColor); border-left-width: var(--cornerWidth); font-family: var(--midFont); font-size: var(--minorFontSize); !important}\n
-        .dhx_cal_event.CALENDAR-INDEX-1 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-1 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-1 { border-top-left-radius: var(--cornerRadius); border-bottom-left-radius: var(--cornerRadius); background-color: var(--homeColorT);    color: #000000; border-left-color: var(--homeColor);    border-left-width: var(--cornerWidth); font-family: var(--midFont); font-size: var(--minorFontSize); !important}\n
-        .dhx_cal_event.CALENDAR-INDEX-2 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-2 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-2 { border-top-left-radius: var(--cornerRadius); border-bottom-left-radius: var(--cornerRadius); background-color: var(--damonColorT);   color: #000000; border-left-color: var(--damonColor);   border-left-width: var(--cornerWidth); font-family: var(--midFont); font-size: var(--minorFontSize); !important}\n
-        .dhx_cal_event.CALENDAR-INDEX-3 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-3 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-3 { border-top-left-radius: var(--cornerRadius); border-bottom-left-radius: var(--cornerRadius); background-color: var(--podColorT);     color: #000000; border-left-color: var(--podColor);     border-left-width: var(--cornerWidth); font-family: var(--midFont); font-size: var(--minorFontSize); !important}\n
-        .dhx_cal_event.CALENDAR-INDEX-4 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-4 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-4 { border-top-left-radius: var(--cornerRadius); border-bottom-left-radius: var(--cornerRadius); background-color: var(--schoolColorT);  color: #000000; border-left-color: var(--schoolColor);  border-left-width: var(--cornerWidth); font-family: var(--midFont); font-size: var(--minorFontSize); !important}\n
-        
-        .dhx_cal_event_clear.CALENDAR-INDEX-0 { color:var(--holidayColor); font-family: var(--minorFont); font-size: var(--minorFontSize);}\n
-        .dhx_cal_event_clear.CALENDAR-INDEX-1 { color:var(--homeColor);    font-family: var(--minorFont); font-size: var(--minorFontSize);}\n
-        .dhx_cal_event_clear.CALENDAR-INDEX-2 { color:var(--damonColor);   font-family: var(--minorFont); font-size: var(--minorFontSize);}\n
-        .dhx_cal_event_clear.CALENDAR-INDEX-3 { color:var(--podColor);     font-family: var(--minorFont); font-size: var(--minorFontSize);}\n
-        .dhx_cal_event_clear.CALENDAR-INDEX-4 { color:var(--schoolColor);  font-family: var(--minorFont); font-size: var(--minorFontSize);}\n
-        
-        
-        .dhx_cal_event_clear.CALENDAR-INDEX-0::before { background:var(--holidayColor); }\n
-        .dhx_cal_event_clear.CALENDAR-INDEX-1::before { background:var(--homeColor); }\n
-        .dhx_cal_event_clear.CALENDAR-INDEX-2::before { background:var(--damonColor); }\n
-        .dhx_cal_event_clear.CALENDAR-INDEX-3::before { background:var(--podColor); }\n
-        .dhx_cal_event_clear.CALENDAR-INDEX-4::before { background:var(--schoolColor); }\n
-        
-        .dhx_cal_container { background-color: rgba(255,255,255,.3);backdrop-filter: blur(4px);font-family: var(--minorFont)}\n
+        .dhx_cal_event_line_start {border-top-left-radius: 8px; border-bottom-left-radius: 8px;}\n
+        .dhx_cal_event_line_end {border-top-right-radius: 8px; border-bottom-right-radius: 8px;}\n
+        .dhx_cal_event.CALENDAR-INDEX-0 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-0 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-0 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #0000ff33; color: #000000; border-left-color: #0000ff; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n
+        .dhx_cal_event.CALENDAR-INDEX-1 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-1 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-1 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #47006833; color: #000000; border-left-color: #470068; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n
+        .dhx_cal_event.CALENDAR-INDEX-2 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-2 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-2 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #cc000033; color: #000000; border-left-color: #cc0000; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n
+        .dhx_cal_event.CALENDAR-INDEX-3 .dhx_body, .dhx_cal_event.CALENDAR-INDEX-3 .dhx_title, .dhx_cal_event_line.CALENDAR-INDEX-3 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; background-color: #00cc0033; color: #000000; border-left-color: #00cc00; border-left-width: 3px; font-family: Roboto; font-size: 10px;}\n\n
+
+        .dhx_cal_event_clear.CALENDAR-INDEX-0 { color:#0000ff; font-family: Roboto; font-size: 10px;}\n
+        .dhx_cal_event_clear.CALENDAR-INDEX-1 { color:#470068; font-family: Roboto; font-size: 10px;}\n
+        .dhx_cal_event_clear.CALENDAR-INDEX-2 { color:#cc0000; font-family: Roboto; font-size: 10px;}\n
+        .dhx_cal_event_clear.CALENDAR-INDEX-3 { color:#00cc00; font-family: Roboto; font-size: 10px;}\n
+
+
+        .dhx_cal_event_clear.CALENDAR-INDEX-0::before { background:#0000ff; }\n
+        .dhx_cal_event_clear.CALENDAR-INDEX-1::before { background:#470068; }\n
+        .dhx_cal_event_clear.CALENDAR-INDEX-2::before { background:#cc0000; }\n
+        .dhx_cal_event_clear.CALENDAR-INDEX-3::before { background:#00cc00; }\n
+
+        .dhx_cal_container { background-color: rgba(255,255,255,.3);backdrop-filter: blur(4px);}\n
         .dhx_cal_header { background-color: rgba(255,255,255,.3);}\n
-        .dhx_scale_bar, .dhx_cal_data, .dhx_month_body,.dhx_month_head,.dhx_month_body, .dhx_month_body { font-family: var(--midFont); background-color: rgba(255,255,255,.1);}\n
+        .dhx_scale_bar, dhx_cal_data, .dhx_month_body,.dhx_month_head,.dhx_month_body, .dhx_month_body { background-color: rgba(255,255,255,.1);}\n\n
         .dhx_before, .dhx_before .dhx_month_head, .dhx_before .dhx_month_body { background-color:#88888810; }\n
-        .dhx_after,  .dhx_after  .dhx_month_head, .dhx_after  .dhx_month_body { background-color:#88888810; }\n
+        .dhx_after,  .dhx_after  .dhx_month_head, .dhx_after  .dhx_month_body { background-color:#88888810; }\n\n
         .dhx_cal_month_cell {background-color: transparent;}\n
-        .dhx_cal_quick_info {display: none;}\n
-        .scheduler_tooltip[\"calendarlabs\"] {display: none;}\n
-    ",
-    
+        .dhx_cal_quick_info {display: none;}\n\n
+        .scheduler_tooltip[\"calendarlabs\"] {display: none;}
+        \n",
     "ending_hour": "24",
     "hour_format": "%g:%i%a",
     "loader": "",
@@ -97,7 +96,6 @@
         "https://calendar.google.com/calendar/ical/en.usa%23holiday%40group.v.calendar.google.com/public/basic.ics",
         "https://p133-caldav.icloud.com/published/2/OTQwOTU1NTQ5NDA5NTU1NFAoDm2cXkxR9AFt_hs1iCJsxYQe1H0uKvBrT2Lp0tcq",
         "https://p133-caldav.icloud.com/published/2/OTQwOTU1NTQ5NDA5NTU1NFAoDm2cXkxR9AFt_hs1iCIBi-HxmcV7Khi3vXA9T-S-Bz7pZlT_G1iu7-EaoXlotIRURT75yOYE-ZtSI1LnMfs",
-        "https://calendar.google.com/calendar/ical/q6gugk78jiahllj87gknq7dv5g%40group.calendar.google.com/private-cbcb2362ef3b862c737351b207598cad/basic.ics",
-        "webcal://p133-caldav.icloud.com/published/2/OTQwOTU1NTQ5NDA5NTU1NFAoDm2cXkxR9AFt_hs1iCLqNgzYrCe3d6tDiqcgclt6aEx_INgd04VdRhcjAs1WNjfJoCKn5d7acZ5RYrn9xGk"
+        "https://calendar.google.com/calendar/ical/q6gugk78jiahllj87gknq7dv5g%40group.calendar.google.com/private-cbcb2362ef3b862c737351b207598cad/basic.ics"
     ]
 }
