@@ -151,7 +151,7 @@ body {
 .scheduler_tooltip[\"calendarlabs\"] {display: none;}
 
 .dhx_cal_event_clear {height:40px;white-space: normal;}
-.dhx_cal_event_line_content{white-space: normal;align-self: start;}
+.dhx_cal_event_line_content{white-space: normal;align-self: center;}
     ",
     
     "ending_hour": "24",
